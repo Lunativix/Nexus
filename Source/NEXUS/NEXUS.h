@@ -1,0 +1,15 @@
+#pragma once
+
+#include "CoreMinimal.h"
+
+DECLARE_LOG_CATEGORY_EXTERN(LogNEXUS, Log, All);
+DECLARE_LOG_CATEGORY_EXTERN(LogNexusMatch, Log, All);
+DECLARE_LOG_CATEGORY_EXTERN(LogNexusRound, Log, All);
+DECLARE_LOG_CATEGORY_EXTERN(LogNexusNetwork, Log, All);
+DECLARE_LOG_CATEGORY_EXTERN(LogNexusWeapon, Log, All);
+DECLARE_LOG_CATEGORY_EXTERN(LogNexusBomb, Log, All);
+DECLARE_LOG_CATEGORY_EXTERN(LogNexusBot, Log, All);
+DECLARE_LOG_CATEGORY_EXTERN(LogNexusNav, Log, All);
+DECLARE_LOG_CATEGORY_EXTERN(LogNexusEconomy, Log, All);
+DECLARE_LOG_CATEGORY_EXTERN(LogNexusOperator, Log, All);
+DECLARE_LOG_CATEGORY_EXTERN(LogNexusArt, Log, All);
