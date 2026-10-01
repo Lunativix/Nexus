@@ -1,0 +1,1005 @@
+🔫 ARSENAL V1.0 — VALIDATION
+
+Je verrouille les 16 armes avec une logique simple : chaque arme doit avoir une raison d'exister.
+
+🟦 PISTOLETS
+Arme	Prix	Cadence	Chargeur	Corps	Tête	Rôle
+USP-S	0	352 RPM	12	34	90	Pistolet de base
+Glock 19	500	450 RPM	15	30	82	Duel rapproché
+Desert Eagle	800	240 RPM	7	58	160	Gros dégâts
+USP-S
+
+Arme gratuite et fiable.
+Elle doit rester suffisamment dangereuse pour qu'un joueur économisant son argent puisse gagner un duel.
+
+Glock 19
+
+Plus permissif grâce à son chargeur et sa cadence.
+
+Desert Eagle
+
+Très puissant mais exigeant.
+
+🟩 SMG
+Arme	Prix	RPM	Mag	Corps	Tête	Rôle
+UMP-45	1 200	600	25	40	100	Puissance
+MP5K	1 400	800	30	32	90	Polyvalence
+P90	1 600	950	50	25	78	Volume de feu
+UMP-45
+
+Très forte à courte/moyenne distance mais cadence faible.
+
+MP5K
+
+Le SMG polyvalent.
+
+P90
+
+Énorme capacité + cadence élevée, mais dégâts individuels faibles.
+
+🟥 FUSILS D'ASSAUT
+Arme	Prix	RPM	Mag	Corps	Tête	Rôle
+FAMAS	2 300	900	25	31	105	Rapide
+AK-47	2 700	600	30	40	125	Puissance
+M4A4	2 900	800	30	33	110	Polyvalence
+SCAR-H	3 200	600	20	46	135	Gros calibre
+FAMAS
+
+Le moins cher des vrais AR.
+
+Très intéressant pour les rounds où l'économie est moyenne.
+
+AK-47
+
+Très gros potentiel de headshot.
+
+Son recul sera conséquent.
+
+M4A4
+
+L'AR le plus polyvalent.
+
+SCAR-H
+
+Deuxième monstre de la catégorie.
+
+Très fort en wallbang mais :
+
+chargeur 20
+recul important
+cadence faible
+mobilité réduite.
+🟨 SHOTGUNS
+Double Barrel — 900
+2 cartouches
+12 pellets
+jusqu'à 28 dégâts/pellet
+très forte dispersion
+énorme burst
+reload long
+
+Spécialiste du très court rayon.
+
+XM — 1 300
+8 cartouches
+12 pellets
+jusqu'à 23 dégâts/pellet
+meilleure précision
+cadence supérieure
+
+Le XM est beaucoup plus polyvalent.
+
+🟪 SNIPERS
+
+Et là je veux une distinction très claire.
+
+L96A1 — 4 000
+Stat	Valeur
+Chargeur	5
+Cadence	~45 RPM
+Corps	150
+Tête	250
+Bras	95
+Jambes	85
+
+Bolt-action lourd.
+
+Le tir au corps tue pratiquement tous les joueurs sans armure lourde.
+
+SVU-AS — 3 500
+Stat	Valeur
+Chargeur	10
+Cadence	~180 RPM
+Corps	85
+Tête	180
+Bras	65
+Jambes	55
+
+Semi-auto.
+
+Il demande généralement plusieurs tirs mais permet de corriger rapidement son premier tir.
+
+VSR-10 — 4 300
+
+Je remplace le nom AWP par VSR-10.
+
+Mais pour éviter toute confusion avec l'arme réelle japonaise, dans le jeu son modèle sera une plateforme fictive appelée :
+
+VSR-10 "Valkyrie"
+Stat	Valeur
+Chargeur	5
+Cadence	~50 RPM
+Corps	180
+Tête	300
+Bras	105
+Jambes	90
+
+C'est le sniper ultra-puissant.
+
+Mais son énorme puissance est compensée par :
+
+prix très élevé
+mobilité faible
+reload lent
+ADS lent
+bolt-action
+forte vulnérabilité à courte distance.
+⬛ M60
+M60 — 3 000
+Stat	Valeur
+Chargeur	100
+RPM	650
+Corps	42
+Tête	105
+Bras	34
+Jambes	30
+
+Particularité :
+
+énorme pression continue.
+
+Très bonne pénétration.
+
+Très bon contrôle de zone.
+
+Mais :
+
+très lourde
+ADS lent
+reload extrêmement long
+recul important
+déplacement réduit.
+
+Elle devient particulièrement intéressante avec les opérateurs capables de contrôler l'espace.
+
+🎯 RÈGLE DE DISTANCE
+
+Les dégâts ci-dessus sont les dégâts maximum à courte portée.
+
+À mesure que la distance augmente, les dégâts diminuent.
+
+Exemple conceptuel :
+
+AK-47
+
+0–15 m
+
+40 dégâts
+
+15–30 m
+
+36
+
+30–50 m
+
+32
+
+50 m+
+
+28
+
+Cela empêche une arme d'être excellente absolument partout.
+
+🧱 PÉNÉTRATION
+
+Les armes obtiennent également un coefficient de pénétration.
+
+Très forte
+L96A1
+VSR-10
+SCAR-H
+M60
+AK-47
+Moyenne
+M4A4
+FAMAS
+UMP-45
+Faible/moyenne
+MP5K
+P90
+Faible
+pistolets
+shotguns
+
+Les snipers et gros calibres deviennent donc particulièrement intéressants lorsque l'information indique :
+
+« Il est derrière ce mur. »
+
+⚖️ IDENTITÉ DES 16 ARMES
+
+On obtient finalement :
+
+USP-S → gratuit
+Glock 19 → polyvalence économique
+Deagle → high skill
+
+UMP → puissance SMG
+MP5K → équilibre
+P90 → volume
+
+FAMAS → AR économique
+AK → dégâts/recoil
+M4A4 → polyvalence
+SCAR-H → gros calibre
+
+Double Barrel → burst extrême
+XM → shotgun polyvalent
+
+SVU-AS → sniper semi-auto
+L96A1 → sniper lourd
+VSR-10 Valkyrie → sniper extrême
+
+M60 → suppression / pénétration
+
+🔥 Prochaine étape : L'ÉCONOMIE
+
+Maintenant que les prix des armes sont définis, on peut construire une économie complète autour de 800 crédits au pistol round, puis simuler :
+
+Pistol → victoire/défaite → eco → force-buy → full-buy → comeback → changement de côté → OT.
+
+C'est cette étape qui permettra de vérifier que le joueur ne se retrouve pas soit toujours riche, soit bloqué pendant 8 rounds avec un pistolet.
+
+Fais toute la validation
+🎮 GDD — VALIDATION COMPLÈTE V1.0
+
+On passe en mode verrouillage du design.
+Les valeurs ci-dessous constituent notre baseline officielle V1.0. Elles pourront être ajustées uniquement après des playtests.
+
+1. FORMAT DU MATCH
+Match standard
+5v5
+Attaquants vs Défenseurs
+1 round = 1 vie
+Aucun respawn
+Première équipe à 13 rounds
+Changement de côté après 12 rounds
+24 rounds maximum en temps réglementaire
+À 12–12 → overtime
+Durée
+Préparation : 30 s
+Round : 4 min
+Plant : 7 s
+Bombe : 45 s
+Defuse : 7 s
+
+Un round sans plant peut donc durer jusqu'à environ 4 min 30 avec la préparation.
+
+2. OVERTIME
+
+À 12–12 :
+
+OT = 6 rounds
+3 rounds dans chaque camp
+Changement de côté après 3 rounds
+Première équipe à 16 rounds
+Si 15–15 → nouveau bloc de 3 rounds
+
+Donc :
+
+12–12 → OT 3–0 → 15–12 → victoire
+12–12 → OT 3–3 → 15–15 → nouveau bloc
+
+Économie OT
+
+Chaque bloc recommence avec une économie contrôlée :
+
+5 000 crédits
+
+Cela évite qu'une mauvaise économie du règlement détermine tout l'OT.
+
+3. ÉCONOMIE
+Argent initial
+Premier round
+
+800 crédits
+
+Le joueur doit choisir :
+
+arme
+armure
+grenades
+économie
+Récompenses
+Action	Crédits
+Victoire	+3 000
+Défaite	+1 900
+Kill	+200
+Assist	+100
+Plant	+300
+Defuse	+300
+Bonus de défaites
+Défaites consécutives	Bonus
+1	+1 900
+2	+2 200
+3	+2 500
+4+	+2 800
+
+Le bonus revient progressivement à zéro après une victoire.
+
+4. LIMITE D'ARGENT
+
+Maximum :
+
+9 000 crédits
+
+Cela empêche un joueur de stocker 20 000 crédits pendant plusieurs rounds.
+
+5. ARMURES
+Équipement	Prix	Réduction corps
+Aucune	0	0 %
+Légère	500	10 %
+Lourde	900	20 %
+Important
+
+Les headshots restent pratiquement inchangés.
+
+L'armure sert donc principalement à :
+
+survivre à un tir supplémentaire dans certaines situations.
+
+Elle ne transforme jamais le joueur en tank.
+
+6. GRENADES
+
+Chaque joueur possède un inventaire limité.
+
+Grenade fragmentation
+
+300 crédits
+
+dégâts importants
+zone moyenne
+explosion retardée
+Flashbang
+
+250 crédits
+
+aveuglement
+désorientation
+efficacité diminuée si regard détourné
+Smoke
+
+250 crédits
+
+écran visuel
+durée : ~18 s
+Incendiaire
+
+400 crédits
+
+zone de contrôle
+durée : ~8 s
+dégâts progressifs
+EMP
+
+350 crédits
+
+désactive temporairement certains équipements électroniques
+aucun dégât direct.
+7. LIMITES D'ÉQUIPE
+
+Pour éviter les spam grenades :
+
+Par joueur
+
+Maximum :
+
+1 frag
+2 flash
+1 smoke
+1 incendiaire
+1 EMP
+
+Mais un opérateur ne pourra pas forcément acheter tout cela.
+
+8. BOMBE
+
+Nom officiel :
+
+BREACH DEVICE
+
+Deux sites :
+
+A / B
+
+Un attaquant commence avec le dispositif.
+
+Il peut :
+
+le transporter
+le déposer
+le donner à un allié
+le perdre à sa mort.
+Plant
+
+7 secondes
+
+Le joueur doit rester dans la zone.
+
+Pendant le plant :
+
+déplacement impossible
+arme indisponible
+interruption si dégâts importants ou déplacement.
+Après le plant
+45 secondes
+
+Avant explosion.
+
+La bombe produit un signal sonore progressivement plus important.
+
+Defuse
+
+7 secondes
+
+Le défenseur peut interrompre le defuse.
+
+La progression est conservée pendant 2 secondes.
+
+Cela évite les micro-interruptions abusives.
+
+9. FIN DE ROUND
+Attaquants gagnent si :
+tous les défenseurs sont morts et la bombe est déjà posée
+bombe explose
+tous les défenseurs meurent avant le defuse après plant
+Défenseurs gagnent si :
+tous les attaquants meurent avant le plant
+temps terminé sans plant
+bombe désamorcée.
+10. OPÉRATEURS
+
+Chaque opérateur possède :
+
+Arme principale
+Arme secondaire
+Gadget 1
+Gadget 2
+Ultimate
+Règle fondamentale
+
+Aucun opérateur ne doit être capable de :
+
+appuyer → détecter automatiquement → tuer automatiquement.
+
+Les capacités créent des opportunités.
+
+11. ROSTER V1
+ATTAQUANTS
+AZÉ — Recon
+
+France 🇫🇷
+
+Rôle : information
+
+Drone éclaireur
+Balise optique
+Ultimate : Œil Noir
+
+Faible en combat direct.
+
+BRUTUS — Breach
+
+USA 🇺🇸
+
+Rôle : ouverture
+
+Charge de brèche
+Charge perforante
+Ultimate : Breach Hammer
+
+Très fort contre les positions fortifiées.
+
+NYX — Infiltration
+
+Grèce 🇬🇷
+
+Rôle : infiltration
+
+Brouilleur personnel
+Charge silencieuse
+Ultimate : Ghost Walk
+
+Très mobile mais fragile.
+
+VANTA — Control
+
+Pologne 🇵🇱
+
+Rôle : contrôle
+
+Smoke tactique
+Incendiaire
+Ultimate : Screen
+
+Excellente pour couper les lignes de vue.
+
+TITAN — Heavy Support
+
+Royaume-Uni 🇬🇧
+
+Rôle : soutien lourd
+
+Protection balistique
+Munitions perforantes
+Ultimate : AP-Load
+
+Lent mais extrêmement efficace pour créer de la pression.
+
+12. DÉFENSEURS
+WARDEN — Surveillance
+
+Royaume-Uni 🇬🇧
+
+Caméras + capteurs.
+
+Ultimate :
+
+Control Room
+
+KRAKEN — Anti-Breach
+
+Norvège 🇳🇴
+
+Spécialiste des protections.
+
+Ultimate :
+
+Lockdown
+
+ECHO — Electronic Warfare
+
+Japon 🇯🇵
+
+Jammers + EMP.
+
+Ultimate :
+
+Blackout
+
+BULWARK — Site Defense
+
+Allemagne 🇩🇪
+
+Protection + renforcement.
+
+Ultimate :
+
+Fortify
+
+HAWK — Counter-Recon
+
+USA 🇺🇸
+
+Détection des mouvements.
+
+Ultimate :
+
+Hunter
+
+13. RÈGLE DE SÉLECTION
+
+Une équipe ne peut sélectionner qu'une fois le même opérateur.
+
+Donc :
+
+pas de 5 Azé.
+
+Cela permet à la composition de devenir une vraie partie du jeu.
+
+14. META
+
+La méta ne sera pas créée artificiellement.
+
+Elle émergera de :
+
+opérateur → contre → contre du contre
+
+Exemple :
+
+Azé
+↓
+Warden
+↓
+Echo
+↓
+Brutus
+↓
+Kraken
+↓
+Nyx
+
+Mais aucune chaîne ne doit être absolue.
+
+15. CARTES
+
+Pour la V1 :
+
+3 cartes compétitives
+
+C'est volontairement peu.
+
+Chaque carte possède :
+
+2 sites
+3 zones principales
+plusieurs rotations
+destruction tactique
+verticalité limitée
+chemins alternatifs.
+Taille
+
+Environ :
+
+100 × 100 m à 140 × 140 m
+
+selon la carte.
+
+16. STRUCTURE DES SITES
+
+Chaque site possède :
+
+2 à 3 entrées principales
+1 entrée secondaire
+2–3 positions défensives fortes
+au moins une ligne de rotation
+quelques surfaces destructibles.
+
+On évite les sites :
+
+« une seule porte → impossible d'entrer ».
+
+17. DESTRUCTION
+Destructible
+portes
+fenêtres
+cloisons
+certains murs
+certaines couvertures
+objets environnementaux
+Indestructible
+piliers
+structures porteuses
+éléments fondamentaux
+extérieur de la carte.
+18. WALLBANG
+
+Conservé exactement selon notre logique :
+
+matériau + épaisseur + arme + nombre de surfaces traversées.
+
+Les gros calibres et snipers auront une véritable identité grâce à cela.
+
+19. AUDIO
+
+Le son devient une source d'information compétitive.
+
+Chaque action possède un profil sonore.
+
+Footsteps
+
+Différents selon :
+
+matériau
+vitesse
+posture
+distance.
+Propagation
+
+Le son peut traverser certaines surfaces avec atténuation.
+
+Les murs épais réduisent fortement les bruits.
+
+20. MINIMAP
+
+La minimap ne donne pas automatiquement la position des ennemis.
+
+Elle montre :
+
+plan connu
+position des alliés
+objectif
+certaines informations générées par les gadgets.
+
+Les ennemis apparaissent uniquement lorsque les systèmes appropriés les détectent.
+
+21. HUD
+
+Affichage minimaliste :
+
+Haut
+
+Score + round + temps.
+
+Bas gauche
+
+HP + armure.
+
+Bas centre
+
+Arme + munitions.
+
+Bas droit
+
+Gadgets + ultimate.
+
+Haut/centre
+
+Informations bombe.
+
+Pas de surcharge visuelle.
+
+22. CROSSHAIR
+
+Personnalisable mais limité.
+
+Le joueur peut modifier :
+
+taille
+épaisseur
+opacité
+forme
+point central.
+
+Pas de réticule dynamique donnant une information excessive sur la précision.
+
+23. KILL FEED
+
+Affiche :
+
+Joueur → arme → joueur
+
+Avec indication spéciale pour :
+
+headshot
+wallbang
+élimination explosive.
+24. SPECTATEUR
+
+Après la mort :
+
+spectateur allié
+vue première personne
+caméra libre uniquement en modes autorisés.
+
+En compétitif :
+
+pas de caméra libre pour les joueurs morts.
+
+25. MATCHMAKING
+
+Deux files :
+
+Casual
+règles normales
+aucun impact compétitif majeur.
+Ranked
+classement
+MMR caché
+rang visible.
+26. RANKED
+
+Rangs :
+
+Recruit
+Bronze
+Silver
+Gold
+Platinum
+Diamond
+Master
+Elite
+
+Chaque rang possède plusieurs divisions sauf les rangs supérieurs.
+
+27. ABANDON
+
+Un joueur qui quitte :
+
+reçoit une pénalité
+ne peut pas rejoindre immédiatement une nouvelle partie classée
+les alliés ne sont pas pénalisés comme s'ils avaient simplement perdu normalement.
+
+Les règles exactes de sanction pourront être ajustées après lancement.
+
+28. REMAKE
+
+Si un joueur quitte extrêmement tôt :
+
+Remake disponible.
+
+La partie est annulée sans perte de classement pour les joueurs restants.
+
+29. BOTS
+
+Le jeu possède un mode entraînement.
+
+Les bots peuvent :
+
+tirer
+se déplacer
+utiliser les gadgets
+défendre
+attaquer
+planter
+defuse
+effectuer des rotations.
+
+Mais :
+
+les bots ne remplacent pas le vrai matchmaking compétitif.
+
+30. PERSONNALISATION
+
+Le joueur pourra débloquer :
+
+skins d'armes
+skins opérateurs
+cartes d'agent
+animations
+charms
+sprays
+titres
+bannières.
+Aucun avantage gameplay.
+31. PROGRESSION
+
+Niveau de compte séparé du ranked.
+
+XP obtenue via :
+
+parties
+objectifs
+victoires
+performances.
+
+Le niveau ne donne aucun bonus de statistiques.
+
+32. ANTI-CHEAT
+
+Indispensable pour le compétitif.
+
+Objectifs :
+
+aimbot
+wallhack
+speedhack
+manipulation mémoire
+scripts
+modifications client.
+
+La conception serveur doit considérer le client comme non fiable.
+
+33. SERVEUR
+
+Pour le compétitif :
+
+Dedicated Server
+
+Pas de peer-to-peer.
+
+Le serveur est autoritaire pour :
+
+dégâts
+position validée
+tirs
+hit registration
+inventaire
+économie
+bombe
+score.
+34. TICKRATE
+
+Baseline :
+
+128 tick
+
+L'objectif est une sensation très réactive.
+
+Le système devra également supporter une compensation de latence raisonnable pour les joueurs ayant un ping supérieur.
+
+35. HIT REGISTRATION
+
+Le serveur valide :
+
+tir → trajectoire → collision → matériau → pénétration → dégâts.
+
+Un client ne peut pas simplement déclarer :
+
+« J'ai touché. »
+
+36. MATCH REPLAY
+
+Chaque match compétitif conserve les données nécessaires à un replay.
+
+Permettre :
+
+revoir les rounds
+changer de joueur
+caméra libre
+vitesse ×0,25 / ×0,5 / ×1 / ×2 / ×4
+timeline
+événements importants.
+37. MODE ENTRAÎNEMENT
+
+Une zone d'entraînement permettra de tester :
+
+toutes les armes
+dégâts
+wallbang
+grenades
+opérateurs
+recul
+mouvement.
+
+Avec mannequins et murs de matériaux différents.
+
+38. MODES DE JEU V1
+1. Competitive
+
+5v5 bombe.
+
+2. Casual
+
+5v5 bombe.
+
+3. Training
+
+Solo contre bots.
+
+4. Custom
+
+Lobby privé.
+
+Pas de multiplication des modes au lancement.
+
+On veut que le jeu ait une identité claire.
+
+39. CE QUI EST MAINTENANT VERROUILLÉ
+
+On possède désormais :
+
+Gameplay core ✅
+Mouvement ✅
+TTK ✅
+Armures ✅
+Arsenal ✅
+Wallbang ✅
+Destruction ✅
+Économie ✅
+Grenades ✅
+Bombe ✅
+Rounds ✅
+Overtime ✅
+10 opérateurs ✅
+Meta/counters ✅
+Audio ✅
+HUD ✅
+Minimap ✅
+Ranked ✅
+Bots ✅
+Custom ✅
+Progression ✅
+Replay ✅
+Serveurs ✅
+Anti-cheat architecture ✅
