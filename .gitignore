@@ -1,0 +1,24 @@
+# Unreal Engine
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+Build/
+*.sln
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.VC.opendb
+*.VC.opendb
+.vs/
+*.opensdf
+*.ipch
+*.aps
+*.log
+
+# Local archives / OS
+*.zip
+Thumbs.db
+Desktop.ini
+.DS_Store
